@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4c770dce-5af7-4ff3-93bf-47c0d2b92eb8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2CuKaSTYfO20KT2LvuP9ibUoeKF" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+  </component>
+  <component name="RunManager">
+    <configuration name="TestBM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Project02.Test.TestBM" />
+      <module name="projects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Project02.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestBM" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4c770dce-5af7-4ff3-93bf-47c0d2b92eb8" name="Default Changelist" comment="" />
+      <created>1659647092189</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1659647092189</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2030" y="441" key="#com.intellij.ide.util.MemberChooser" timestamp="1659652339182">
+      <screen x="0" y="25" width="3440" height="1368" />
+    </state>
+    <state x="2030" y="441" key="#com.intellij.ide.util.MemberChooser/0.25.3440.1368@0.25.3440.1368" timestamp="1659652339182" />
+    <state width="1670" height="321" key="GridCell.Tab.0.bottom" timestamp="1659652947453">
+      <screen x="0" y="25" width="3440" height="1368" />
+    </state>
+    <state width="1670" height="321" key="GridCell.Tab.0.bottom/0.25.3440.1368@0.25.3440.1368" timestamp="1659652947452" />
+    <state width="1670" height="321" key="GridCell.Tab.0.center" timestamp="1659652947452">
+      <screen x="0" y="25" width="3440" height="1368" />
+    </state>
+    <state width="1670" height="321" key="GridCell.Tab.0.center/0.25.3440.1368@0.25.3440.1368" timestamp="1659652947452" />
+    <state width="1670" height="321" key="GridCell.Tab.0.left" timestamp="1659652947451">
+      <screen x="0" y="25" width="3440" height="1368" />
+    </state>
+    <state width="1670" height="321" key="GridCell.Tab.0.left/0.25.3440.1368@0.25.3440.1368" timestamp="1659652947451" />
+    <state width="1670" height="321" key="GridCell.Tab.0.right" timestamp="1659652947452">
+      <screen x="0" y="25" width="3440" height="1368" />
+    </state>
+    <state width="1670" height="321" key="GridCell.Tab.0.right/0.25.3440.1368@0.25.3440.1368" timestamp="1659652947452" />
+    <state x="1782" y="465" width="959" height="646" key="find.popup" timestamp="1659652588515">
+      <screen x="0" y="25" width="3440" height="1368" />
+    </state>
+    <state x="1782" y="465" width="959" height="646" key="find.popup/0.25.3440.1368@0.25.3440.1368" timestamp="1659652588515" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Project02/View/BookView.java</url>
+          <line>160</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
