@@ -11,13 +11,14 @@ import domain.Programmer;
  */
 
 public class TeamService {
-    // counter为静态变量，用来为开发团队新增成员自动生成团队中的唯一ID，即memberId。（提示：应使用增1的方式）
+    // counter为静态变量，用来为开发团队新增成员自动生成团队中的唯一ID，即memberId。
+    //（提示：应使用增1的方式） programmer.setMemberId(counter++);
     private static int counter = 1;
     //MAX_MEMBER：表示开发团队最大成员数
     private final int MAX_MEMBER = 5;
     //team数组：用来保存当前团队中的各成员对象
     private Programmer[] team = new Programmer[MAX_MEMBER];
-    //total：记录团队成员的实际人数
+    //realCount：记录团队成员的实际人数
     private int realCount;
 
     public TeamService() {
@@ -61,7 +62,7 @@ public class TeamService {
         if (isExist(employee)) {
             throw new TeamException("The person is already a team member");
         }
-        //"该员正在Vacation or Busy,，无法添加"
+        //"该员正在Vacation or Busy,无法添加"
         Programmer programmer = (Programmer) employee;
         if (programmer.getStatus().equals(TeamStatus.Status.BUSY)) {
             throw new TeamException("The person is already a team member");
@@ -100,8 +101,8 @@ public class TeamService {
         // 给新成员赋予TID, 并改状态
         programmer.setMemberId(counter++);
         programmer.setStatus(TeamStatus.Status.BUSY);
-        // 把参数中的对象保存在数组中, 下标由计数器控制 // 调整计数器
-        this.team[realCount++] = programmer; // 将programmer 添加到现有的team中
+        // 把参数中的对象保存在数组中, 下标由计数器控制, 调整计数器
+        this.team[realCount++] = programmer; // 传递的是地址值
     }
 
 
@@ -114,7 +115,37 @@ public class TeamService {
         return false;
     }
 
-    public void removeMember(int memberId) {
 
+    /**
+     * 	方法：从团队中删除成员
+     参数：待删除成员的memberId
+     异常：删除失败， TeamException中包含了失败原因
+     */
+    public void removeMember(int memberId) throws TeamException {
+        // 根据memberId找到下标
+        int index = -1; // 先赋值一个无效下标
+        for (int i = 0; i < realCount; i++) {
+            if (team[i].getMemberId() == memberId) {
+                index = i;
+                break;
+            }
+        }
+        if (index == -1) { // 如果index没有被刷新过, 说明没有找到目标
+            throw new TeamException("没有指定TID[" + memberId + "]的成员");
+        }
+
+        // 删除前, 把要删除的目标对象的TID, 状态 修改
+        team[index].setMemberId(0);
+        team[index].setStatus(TeamStatus.Status.FREE);
+
+        // 1) 把要删除的下标位置处置为空洞
+        team[index] = null;
+        // 2) 从要删除的下标位置开始, 依次把右侧相邻的元素复制到左边
+        for (int i = index; i < realCount - 1; i++) {
+            team[i] = team[i + 1];
+        }
+        // 3) 把之前的最有有效元素位置处置为空洞   4) 调整计数器
+        team[--realCount] = null; // 先减后用
     }
+
 }

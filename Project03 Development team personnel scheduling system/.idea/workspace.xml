@@ -114,10 +114,10 @@
     </state>
     <state x="398" y="25" key="SettingsEditor/0.25.1680.978@0.25.1680.978" timestamp="1661114589539" />
     <state x="1555" y="279" key="SettingsEditor/0.25.3440.1368@0.25.3440.1368" timestamp="1660270027011" />
-    <state x="46" y="151" width="904" height="882" key="dock-window-1" timestamp="1663183869410">
+    <state x="46" y="121" width="904" height="882" key="dock-window-1" timestamp="1663186030404">
       <screen x="0" y="25" width="1680" height="978" />
     </state>
-    <state x="46" y="151" width="904" height="882" key="dock-window-1/0.25.1680.978@0.25.1680.978" timestamp="1663183869410" />
+    <state x="46" y="121" width="904" height="882" key="dock-window-1/0.25.1680.978@0.25.1680.978" timestamp="1663186030404" />
     <state x="542" y="234" width="1022" height="1215" key="dock-window-1/0.25.3440.1368@0.25.3440.1368" timestamp="1660270348622" />
     <state x="293" y="174" width="685" height="637" key="dock-window-2" timestamp="1660360884940">
       <screen x="0" y="25" width="1680" height="978" />
@@ -135,6 +135,10 @@
       <screen x="0" y="25" width="3440" height="1368" />
     </state>
     <state x="1889" y="447" width="782" height="566" key="find.popup/0.25.3440.1368@0.25.3440.1368" timestamp="1660272282695" />
+    <state x="784" y="25" width="838" height="1032" key="search.everywhere.popup" timestamp="1663187575860">
+      <screen x="0" y="25" width="1680" height="978" />
+    </state>
+    <state x="784" y="25" width="838" height="1032" key="search.everywhere.popup/0.25.1680.978@0.25.1680.978" timestamp="1663187575860" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
