@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="639ca2fb-f922-4de3-8610-10370c411e37" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2DEQNkggEpspcuUAeaA1YUoySVx" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager" selected="JUnit.TeamListServiceTest.testGetEmployee">
+    <configuration name="TeamListServiceTest.testGetAllEmployees" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Project03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Junit" />
+      <option name="MAIN_CLASS_NAME" value="Junit.TeamListServiceTest" />
+      <option name="METHOD_NAME" value="testGetAllEmployees" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TeamListServiceTest.testGetEmployee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Project03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Junit" />
+      <option name="MAIN_CLASS_NAME" value="Junit.TeamListServiceTest" />
+      <option name="METHOD_NAME" value="testGetEmployee" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TeamListServiceTest.testGetEmployee" />
+        <item itemvalue="JUnit.TeamListServiceTest.testGetAllEmployees" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="639ca2fb-f922-4de3-8610-10370c411e37" name="Default Changelist" comment="" />
+      <created>1660261725517</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660261725517</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="998" y="282" key="#com.intellij.ide.util.MemberChooser" timestamp="1661114062109">
+      <screen x="0" y="25" width="1680" height="978" />
+    </state>
+    <state x="998" y="282" key="#com.intellij.ide.util.MemberChooser/0.25.1680.978@0.25.1680.978" timestamp="1661114062109" />
+    <state x="2043" y="384" key="#com.intellij.ide.util.MemberChooser/0.25.3440.1368@0.25.3440.1368" timestamp="1660266809623" />
+    <state width="894" height="237" key="GridCell.Tab.0.bottom" timestamp="1661052439953">
+      <screen x="0" y="25" width="1680" height="978" />
+    </state>
+    <state width="894" height="237" key="GridCell.Tab.0.bottom/0.25.1680.978@0.25.1680.978" timestamp="1661052439953" />
+    <state width="1085" height="311" key="GridCell.Tab.0.bottom/0.25.3440.1368@0.25.3440.1368" timestamp="1660272598546" />
+    <state width="894" height="237" key="GridCell.Tab.0.center" timestamp="1661052439952">
+      <screen x="0" y="25" width="1680" height="978" />
+    </state>
+    <state width="894" height="237" key="GridCell.Tab.0.center/0.25.1680.978@0.25.1680.978" timestamp="1661052439952" />
+    <state width="1085" height="311" key="GridCell.Tab.0.center/0.25.3440.1368@0.25.3440.1368" timestamp="1660272598546" />
+    <state width="894" height="237" key="GridCell.Tab.0.left" timestamp="1661052439952">
+      <screen x="0" y="25" width="1680" height="978" />
+    </state>
+    <state width="894" height="237" key="GridCell.Tab.0.left/0.25.1680.978@0.25.1680.978" timestamp="1661052439952" />
+    <state width="1085" height="311" key="GridCell.Tab.0.left/0.25.3440.1368@0.25.3440.1368" timestamp="1660272598545" />
+    <state width="894" height="237" key="GridCell.Tab.0.right" timestamp="1661052439953">
+      <screen x="0" y="25" width="1680" height="978" />
+    </state>
+    <state width="894" height="237" key="GridCell.Tab.0.right/0.25.1680.978@0.25.1680.978" timestamp="1661052439953" />
+    <state width="1085" height="311" key="GridCell.Tab.0.right/0.25.3440.1368@0.25.3440.1368" timestamp="1660272598546" />
+    <state x="398" y="25" key="SettingsEditor" timestamp="1661114589539">
+      <screen x="0" y="25" width="1680" height="978" />
+    </state>
+    <state x="398" y="25" key="SettingsEditor/0.25.1680.978@0.25.1680.978" timestamp="1661114589539" />
+    <state x="1555" y="279" key="SettingsEditor/0.25.3440.1368@0.25.3440.1368" timestamp="1660270027011" />
+    <state x="46" y="151" width="904" height="882" key="dock-window-1" timestamp="1663183869410">
+      <screen x="0" y="25" width="1680" height="978" />
+    </state>
+    <state x="46" y="151" width="904" height="882" key="dock-window-1/0.25.1680.978@0.25.1680.978" timestamp="1663183869410" />
+    <state x="542" y="234" width="1022" height="1215" key="dock-window-1/0.25.3440.1368@0.25.3440.1368" timestamp="1660270348622" />
+    <state x="293" y="174" width="685" height="637" key="dock-window-2" timestamp="1660360884940">
+      <screen x="0" y="25" width="1680" height="978" />
+    </state>
+    <state x="293" y="174" width="685" height="637" key="dock-window-2/0.25.1680.978@0.25.1680.978" timestamp="1660360884940" />
+    <state x="0" y="25" width="792" height="959" key="dock-window-3" timestamp="1660361071311">
+      <screen x="0" y="25" width="1680" height="978" />
+    </state>
+    <state x="0" y="25" width="792" height="959" key="dock-window-3/0.25.1680.978@0.25.1680.978" timestamp="1660361071311" />
+    <state x="0" y="160" width="835" height="607" key="dock-window-4" timestamp="1660361201003">
+      <screen x="0" y="25" width="1680" height="978" />
+    </state>
+    <state x="0" y="160" width="835" height="607" key="dock-window-4/0.25.1680.978@0.25.1680.978" timestamp="1660361201003" />
+    <state x="1889" y="447" width="782" height="566" key="find.popup" timestamp="1660272282695">
+      <screen x="0" y="25" width="3440" height="1368" />
+    </state>
+    <state x="1889" y="447" width="782" height="566" key="find.popup/0.25.3440.1368@0.25.3440.1368" timestamp="1660272282695" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/domain/Architect.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Service/TeamData.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Junit/TeamListServiceTest.java</url>
+          <line>9</line>
+          <properties class="Junit.TeamListServiceTest" method="testGetAllEmployees">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

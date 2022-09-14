@@ -25,4 +25,4 @@ These three projects are exercises aimed at solidifying the basics of java (obje
 5. Insertion, deletion and replacement of arrays
 6. Use of the keyword: this
 
-####  
+##  **Project 3:  👩🏻‍💻   Development team personnel scheduling system**
