@@ -26,3 +26,5 @@ These three projects are exercises aimed at solidifying the basics of java (obje
 6. Use of the keyword: this
 
 ##  **Project 3:  👩🏻‍💻   Development team personnel scheduling system**
+
+Simulate the realization of a "Library Information Management Software" based on a text interface, familiar with object-oriented programming and debugging skills
