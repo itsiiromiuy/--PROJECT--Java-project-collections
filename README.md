@@ -55,10 +55,11 @@ The Team Management System is a Java-based application that provides functionali
 ### Modules:
 The peoject is orgnaized into three modules: Domain, Service, and View.
 
-Domain: 
+#### Domain: 
+
 > The Domain module defines the core entities and their properties in the team management system. It includes the following classes:
 
-```bash
+``` 
 Domain:
   |--> **Employee**: Represents the basic information of a team member, including their ID, name, age, and salary.
   |--> **Programmer**: Extends Employee and adds additional properties specific to programmers, such as a member ID, status, and equipment.
