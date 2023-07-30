@@ -5,15 +5,17 @@
     <h1>Java Mastery Journey with ❸ Projects</h1>
 </div>
 
-
 <div align="center">
     📚 <a href="#">Course Link</a> |
     🚀 <a href="#">Projects</a> |
     📝 <a href="#">Course Notes</a> |
-</div>
+</div><br><br>
+
+
+
 Welcome to my Java Learning & Practice journey! Over the course of one year, I have dedicated myself to mastering the core knowledge of Java programming through meticulous note-taking and hands-on projects.
 
-<div align="center"></div>
+<div align="center"></div><br>
 
 ## 📒 Table of Content
 
