@@ -1,7 +1,7 @@
 package Service;
 
 
-import domain.*;
+import Domain.*;
 
 import static Service.TeamData.*;
 

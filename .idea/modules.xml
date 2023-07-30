@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java-PROJECTS-Exercise.iml" filepath="$PROJECT_DIR$/.idea/Java-PROJECTS-Exercise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Project03 Development team personnel scheduling system/Project03 Development team personnel scheduling system.iml" filepath="$PROJECT_DIR$/Project03 Development team personnel scheduling system/Project03 Development team personnel scheduling system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project01 Family Budget/project01 Family Budget.iml" filepath="$PROJECT_DIR$/project01 Family Budget/project01 Family Budget.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project02 Library Information Management Software/project02 Library Information Management Software.iml" filepath="$PROJECT_DIR$/project02 Library Information Management Software/project02 Library Information Management Software.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project02 Library information management/project02 Library information management.iml" filepath="$PROJECT_DIR$/project02 Library information management/project02 Library information management.iml" />
+    </modules>
+  </component>
+</project>

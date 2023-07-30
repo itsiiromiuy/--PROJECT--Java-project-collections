@@ -1,10 +1,10 @@
 package Service;
 
 
-import domain.Architect;
-import domain.Designer;
-import domain.Employee;
-import domain.Programmer;
+import Domain.Architect;
+import Domain.Designer;
+import Domain.Employee;
+import Domain.Programmer;
 
 /**
  * @Description Management of development team members: add, delete, etc.

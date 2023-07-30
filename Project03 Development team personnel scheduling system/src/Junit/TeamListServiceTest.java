@@ -2,7 +2,7 @@ package Junit;
 
 import Service.TeamException;
 import Service.TeamListService;
-import domain.Employee;
+import Domain.Employee;
 import org.junit.Test;
 
 public class TeamListServiceTest {
