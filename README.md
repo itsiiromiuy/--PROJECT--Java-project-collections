@@ -13,11 +13,12 @@
 </div>
 Welcome to my Java Learning & Practice journey! Over the course of one year, I have dedicated myself to mastering the core knowledge of Java programming through meticulous note-taking and hands-on projects.
 
-
+<div align="center"></div>
 
 ## 📒 Table of Content
 
-<div align="center">
+
+
 
 | Section   | Topic             | Problem Sets                                              |
 | --------- | ----------------- | --------------------------------------------------------- |
