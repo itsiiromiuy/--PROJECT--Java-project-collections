@@ -24,21 +24,22 @@ Welcome to my Java Learning & Practice journey! Over the course of one year, I h
 
 | Section   | Topic             | Problem Sets                                              |
 | --------- | ----------------- | --------------------------------------------------------- |
-| Section 1 | Getting Started   |                                                           |
-| Section 2 | Computer Basics   |                                                           |
-| Section 3 | Java Basic Syntax | Variables and Operators,- Process Control Statements,- Arrays |
-| Section 4 | Object-Oriented Programming (OOP) | Classes and Objects, JVM memory, Class Members: (Fields) &（method）- 4.1 How to Declare Member Variables 4.2 Member Variables vs. Local Variables, Understand method, Instance method, [Stack Memory and Heap Space ](https://www.baeldung.com/java-stack-heap),Method oOverload ,Variable-Length Parameter (Varargs),Method Parameter Passing Mechanism,Recursion, |
-|Section 5 | Object-Oriented Programming (OOP) | Encapsulation,Constructor,JavaBean,UML, *keyword:* this, *keyword*: Super,Inheritance,Override,access modifiers,polymorphism,virtual method invocation,upcasting vs downcasting |
-| Section 6 | Object-Oriented Programming (OOP) | *keyword*: static,singleton,code block,keyword: final,keyword: abstract,Interface,InnerClass,Enum,Annotation,Wrapper Class, |
-| Section 7 | Exception handling | Try-catch-finally Blocks,  Throwing Exceptions |
-| Section 8 | Thread | Multithreading(Thread vs Runnable),Common methods,Daemon Threads,Thread lifecycle,Synchronization Mechanisms,Thread Communication,Producer-Consumer Problem,Lock Release Operations |
+| Section 1 | Getting Started   | Introduction to Java, Setting up Development Environment, Writing First Java Program |
+| Section 2 | Computer Basics   | Computer Architecture, Operating Systems, Basics of Data Representation |
+| Section 3 | Java Basic Syntax | Variables and Data Types, Operators and Expressions, Control Flow Statements, Arrays and Strings |
+| Section 4 | Object-Oriented Programming (OOP) | Classes and Objects, JVM memory, Class Members: Fields & Methods, How to Declare Member Variables, Member Variables vs. Local Variables, Understanding Instance method, [Stack Memory and Heap Space ](https://www.baeldung.com/java-stack-heap),Method Overload , Variable-Length Parameter(Varargs), Method Parameter Passing Mechanism, Recursion, |
+|Section 5 | Object-Oriented Programming (OOP) | Encapsulation, Constructor,JavaBean, UML, *keyword:* this, *keyword*: Super,Inheritance, Override,Access Modifiers, Polymorphism (Compile-time and Runtime Polymorphism), Virtual Method Invocation, Upcasting vs. Downcasting |
+| Section 6 | Object-Oriented Programming (OOP) | *keyword*: static, final, abstract, Singleton, Code Blocks, Interfaces, Inner Classes (Nested Classes), Enum,Annotation, Wrapper Class |
+| Section 7 | Exception handling | Understanding Exceptions, try-catch Blocks, Multiple Catch Blocks, Throwing Exceptions, Custom Exceptions |
+| Section 8 | Thread | Multithreading Concepts, Creating Threads: Thread vs Runnable, Thread Synchronization, Daemon Threads, Thread Lifecycle, Thread Communication, Producer-Consumer Problem, Locks and Lock Release |
 | Section 9 | Common class and API                                       | String, StringBuffer,StringBUilder, DateAPI, java.lang.Comaprable, Java.util.Comparator, System, Runtime, Math, Random    |
-| Section 10 |          Collection                              | Iterator, List, Set, Map, Iterator and Iterable, Generics in Collections, Synchronized Collections, Common Methods and Operations |
-| Section 11 | Generics | Generic Classes, Type Parameters, Generic Methods: |
-| Section 12 | File and Stream I/O:                  | File Class and File Handlin, Byte Streams, Character Streams, File I/O with NIO (New I/O) Package, File and Stream Exceptions Handling, File and Stream Best Practices |
-| Section 13 | Network Programming and Communication | TCP Protocol, UDP Protocol, Three-Way Handshake, Four-Way Handshake，Network Programming API: InetAddress Class, Socket Class, Socket-related Class APIs，URL Programming: URL Class, Commonly Used Methods, URLConnection Class for HTTP Protocol |
-| Section 14 | Reflection | Reflection Mechanism, Understanding Class Class and Obtaining Class Instances, Class Loading, Basic Applications of Reflection, Application 4: Reading Annotation Information, Experiencing the Dynamics of Reflection |
-| Section 15 | Java8 | Lambda, Functional interface, Stream API, Jshell |
+| Section 10 |          Collection                              | Introduction to Collections, List Interface and ArrayList, Set Interface and HashSet, Map Interface and HashMap, Iterator and Iterable, Generics in Collections, Synchronized Collections |
+| Section 11 | Generics | Generic Classes, Type Parameters, Generic Methods |
+| Section 12 | File and Stream I/O:                  | File Handling with File Class, Byte Streams and Character Streams, File I/O with NIO (New I/O) Package, Handling File and Stream Exceptions, Best Practices for File and Stream I/O |
+| Section 13 | Network Programming and Communication | Overview of Networking, TCP and UDP Protocols, Three-Way Handshake and Four-Way Handshake, Network Programming APIs: InetAddress and Socket Classes, Socket-related Class APIs, URL Programming with URL and URLConnection Classes |
+| Section 14 | Reflection |Understanding Reflection Mechanism, Getting Class Instances, Class Loading, Basic Applications of Reflection, Reading Annotation Information, Exploring the Dynamics of Reflection|
+|Section 11	  |Java 8|Lambda Expressions, Functional Interfaces, Stream API for Collection Processing, Introduction to JShell|
+| Section 15 | Advanced Java Concepts | Serialization and Deserialization, JavaFX Basics, Java 9 and Beyond Features |
 
 
 
