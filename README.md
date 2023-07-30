@@ -2,15 +2,20 @@
 
 <div align=center>
     <img src="https://serverdo.in/wp-content/uploads/2019/06/1GCu4cNWIU1ElDbY7d4ycZw.jpg">
-    <h1>Java Project Challenge</h1>
+    <h1>Java Mastery Journey with ❸ Projects</h1>
 </div>
+
 
 <div align="center">
     📚 <a href="#">Course Link</a> |
     🚀 <a href="#">Projects</a> |
     📝 <a href="#">Course Notes</a> |
 </div>
+Welcome to my Java Learning & Practice journey! Over the course of one year, I have dedicated myself to mastering the core knowledge of Java programming through meticulous note-taking and hands-on projects.
 
+
+
+## 📒 Table of Content
 
 <div align="center">
 
@@ -18,16 +23,24 @@
 | --------- | ----------------- | --------------------------------------------------------- |
 | Section 1 | Getting Started   |                                                           |
 | Section 2 | Computer Basics   |                                                           |
-| Section 3 | Java Basic Syntax | - Variables and Operators<br>- Process Control Statements<br>- Arrays |
-| Section 4 | Object-Oriented Programming (OOP) | - Classes and Objects, <br/>JVM memory, <br/>Class Members: (Fields) &（method）<br>- 4.1 How to Declare Member Variables 4.2 Member Variables vs. Local Variables<br>Understand method, Instance method, [Stack Memory and Heap Space ](https://www.baeldung.com/java-stack-heap)<br>Method oOverload <br>Variable-Length Parameter (Varargs)<br>Method Parameter Passing Mechanism<br>Recursion<br> |
-|Section 5 | Object-Oriented Programming (OOP) | encapsulation<br>Constructor<br>JavaBean<br>UML<br>keyword: this<br>keyword: super<br>Inheritance<Br>Override<br/>access modifiers<Br>polymorphism<br/>virtual method invocation<br/>upcasting vs downcasting |
-| Section 6 | Object-Oriented Programming (OOP) | keyword: static<br>singleton<Br>code block<br>keyword: final<br>keyword: abstract<br>Interface<br>InnerClass<br>Enum<br>Annotation<Br>Wrapper Class<br> |
-| Section 7 | Exception handling | Try-catch-finally Blocks<Br>  Throwing Exceptions |
-| Section 8 | Thread | Multithreading(Thread vs Runnable)<br>Common methods<br>Daemon Threads<br>Thread lifecycle<br>Synchronization Mechanisms<Br>Thread Communication<br/>Producer-Consumer Problem<br/>Lock Release Operations |
+| Section 3 | Java Basic Syntax | Variables and Operators,- Process Control Statements,- Arrays |
+| Section 4 | Object-Oriented Programming (OOP) | Classes and Objects, JVM memory, Class Members: (Fields) &（method）- 4.1 How to Declare Member Variables 4.2 Member Variables vs. Local Variables, Understand method, Instance method, [Stack Memory and Heap Space ](https://www.baeldung.com/java-stack-heap),Method oOverload ,Variable-Length Parameter (Varargs),Method Parameter Passing Mechanism,Recursion, |
+|Section 5 | Object-Oriented Programming (OOP) | Encapsulation,Constructor,JavaBean,UML, *keyword:* this, *keyword*: Super,Inheritance,Override,access modifiers,polymorphism,virtual method invocation,upcasting vs downcasting |
+| Section 6 | Object-Oriented Programming (OOP) | *keyword*: static,singleton,code block,keyword: final,keyword: abstract,Interface,InnerClass,Enum,Annotation,Wrapper Class, |
+| Section 7 | Exception handling | Try-catch-finally Blocks,  Throwing Exceptions |
+| Section 8 | Thread | Multithreading(Thread vs Runnable),Common methods,Daemon Threads,Thread lifecycle,Synchronization Mechanisms,Thread Communication,Producer-Consumer Problem,Lock Release Operations |
 | Section 9 | Common class and API                                       | String, StringBuffer,StringBUilder, DateAPI, java.lang.Comaprable, Java.util.Comparator, System, Runtime, Math, Random    |
-| Section 10 |          Collection                              |  |
+| Section 10 |          Collection                              | Iterator, List, Set, Map, Iterator and Iterable, Generics in Collections, Synchronized Collections, Common Methods and Operations |
+| Section 11 | Generics | Generic Classes, Type Parameters, Generic Methods: |
+| Section 12 | File and Stream I/O:                  | File Class and File Handlin, Byte Streams, Character Streams, File I/O with NIO (New I/O) Package, File and Stream Exceptions Handling, File and Stream Best Practices |
+| Section 13 | Network Programming and Communication | TCP Protocol, UDP Protocol, Three-Way Handshake, Four-Way Handshake，Network Programming API: InetAddress Class, Socket Class, Socket-related Class APIs，URL Programming: URL Class, Commonly Used Methods, URLConnection Class for HTTP Protocol |
+| Section 14 | Reflection | Reflection Mechanism, Understanding Class Class and Obtaining Class Instances, Class Loading, Basic Applications of Reflection, Application 4: Reading Annotation Information, Experiencing the Dynamics of Reflection |
+| Section 15 | Java8 | Lambda, Functional interface, Stream API, Jshell |
+
+
 
 ##  Project 1: 💰 Family Budgeting Software
+
 > This software is mainly to simulate the realization of a family budget software based on a text interface, familiar with the basic syntax of Java, and master the use of basic data types, loop statements, branch statements, method invocation and return value receiving, and simple screen output format control.
 
 🪴 It mainly involves the following knowledge points: 
