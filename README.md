@@ -1,6 +1,32 @@
-# 🚀 Java-Term-Projects Challenge
 
-These three projects are exercises aimed at solidifying the basics of java (object-oriented).
+
+<div align=center>
+    <img src="https://serverdo.in/wp-content/uploads/2019/06/1GCu4cNWIU1ElDbY7d4ycZw.jpg">
+    <h1>Java Project Challenge</h1>
+</div>
+
+<div align="center">
+    📚 <a href="#">Course Link</a> |
+    🚀 <a href="#">Projects</a> |
+    📝 <a href="#">Course Notes</a> |
+</div>
+
+
+<div align="center">
+
+|Section|Topic|Problem Sets|
+|-----|-----------|----|
+|Section 1 | Getting Started ||
+|Section 2| Computer Basics |              |
+|Section 3 | Java Brief    |              |
+|Section 4| Development environment |  |
+|Section 5 | JVM       |              |
+|           |                                        |              |
+|           |                                        |              |
+|           |                                        |              |
+|           |                                        |              |
+|           |                                        |  |
+
 ##  Project 1: 💰 Family Budgeting Software
 > This software is mainly to simulate the realization of a family budget software based on a text interface, familiar with the basic syntax of Java, and master the use of basic data types, loop statements, branch statements, method invocation and return value receiving, and simple screen output format control.
 
@@ -37,8 +63,9 @@ BookView
     5. Insertion, deletion and replacement of arrays
     6. Use of the keyword: this
 
+##  **Project 3:  👩🏻‍💻 Development team personnel scheduling system**
 
-##  **Project 3:  👩🏻‍💻   Development team personnel scheduling system**
+### Description:
 
 The Team Management System is a Java-based application that provides functionalities to manage a development team. The system allows users to add, remove, and view team members, handle team member assignments, and manage their equipment. It is designed to be a flexible and extensible system for managing various types of team members, such as Programmers, Designers, and Architects, along with their respective equipment.
 
@@ -71,7 +98,8 @@ Domain:
   |--> **Printer**: Extends Equipment and adds additional properties specific to printers, such as type and name.
 ```
 
-Service:
+#### Service:
+
 > The Service module provides the core business logic of the team management system. It includes the following classes:
 
 ```
@@ -83,7 +111,8 @@ Service:
   |--> **TeamException**: A custom exception class that defines exceptions that may occur in the team management system.
 ```
 
-View:
+#### View:
+
 > The View module provides the user interface for the team management system. It includes the following classes:
 
 ```
@@ -92,7 +121,8 @@ View:
   |--> **TSUtility**: A utility class that provides methods for reading user input and displaying menus.
 ```
 
-JUnit Test:
+#### JUnit Test:
+
 > The JUnit Test module provides unit tests for the team management system. It includes the following classes:
 
 ```
