@@ -45,21 +45,32 @@ Welcome to my Java Learning & Practice journey! Over the course of one year, I h
 
 ##  Project 1: 💰 Family Budgeting Software
 
-> This software is mainly to simulate the realization of a family budget software based on a text interface, familiar with the basic syntax of Java, and master the use of basic data types, loop statements, branch statements, method invocation and return value receiving, and simple screen output format control.
+> This project involves simulating the development of a family budget software using a text interface. The goal is to become proficient in basic Java syntax, including local variables, data types, loops, branching, method invocation, return values, and simple screen output formatting.
 
 🪴 It mainly involves the following knowledge points: 
 
-    1.  Local variables and basic data types
-    2.  Loop statements
-    3.  Branch statement
-    4.  Method invocation and receipt of return values
-    5.  Simple screen output format control
+1.  Local variables and basic data types
+2.  Loop statements
+3.  Branch statement
+4.  Method invocation and receipt of return values
+5.  Simple screen output format control
+
+
 
 ##  Project 2:  📚  Library Information Management Software
 
 > Simulate the realization of a "Library Information Management Software" based on a text interface, familiar with object-oriented programming and debugging skills, and master the use of classes, objects, arrays, and MVC design pattern.
 
-the structure of the project is as follows:
+🪴The project will cover the following key concepts:
+
+1. Using the Class Structure: Properties, Methods, and Constructors
+Object creation and usage
+2. Class encapsulation
+3. Declaring and using arrays
+4. Insertion, deletion, and replacement of array elements
+5. Understanding and utilizing the keyword: this
+
+The structure of the project is as follows:
 
 ```
 BookView
@@ -71,14 +82,7 @@ BookView
 ```
 
 
-🪴It mainly involves the following knowledge points:
 
-    1. Using the Class Structure: Properties, Methods, and Constructors
-    2. Object creation and use
-    3. class encapsulation
-    4. Declaring and using arrays
-    5. Insertion, deletion and replacement of arrays
-    6. Use of the keyword: this
 
 ##  **Project 3:  👩🏻‍💻 Development team personnel scheduling system**
 
