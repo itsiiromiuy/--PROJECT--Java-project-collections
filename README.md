@@ -14,18 +14,18 @@
 
 <div align="center">
 
-|Section|Topic|Problem Sets|
-|-----|-----------|----|
-|Section 1 | Getting Started ||
-|Section 2| Computer Basics |              |
-|Section 3 | Java Brief    |              |
-|Section 4| Development environment |  |
-|Section 5 | JVM       |              |
-|           |                                        |              |
-|           |                                        |              |
-|           |                                        |              |
-|           |                                        |              |
-|           |                                        |  |
+| Section   | Topic             | Problem Sets                                              |
+| --------- | ----------------- | --------------------------------------------------------- |
+| Section 1 | Getting Started   |                                                           |
+| Section 2 | Computer Basics   |                                                           |
+| Section 3 | Java Basic Syntax | - Variables and Operators<br>- Process Control Statements<br>- Arrays |
+| Section 4 | Object-Oriented Programming (OOP) | - Classes and Objects, <br/>JVM memory, <br/>Class Members: (Fields) &（method）<br>- 4.1 How to Declare Member Variables 4.2 Member Variables vs. Local Variables<br>Understand method, Instance method, [Stack Memory and Heap Space ](https://www.baeldung.com/java-stack-heap)<br>Method oOverload <br>Variable-Length Parameter (Varargs)<br>Method Parameter Passing Mechanism<br>Recursion<br> |
+|Section 5 | Object-Oriented Programming (OOP) | encapsulation<br>Constructor<br>JavaBean<br>UML<br>keyword: this<br>keyword: super<br>Inheritance<Br>Override<br/>access modifiers<Br>polymorphism<br/>virtual method invocation<br/>upcasting vs downcasting |
+| Section 6 | Object-Oriented Programming (OOP) | keyword: static<br>singleton<Br>code block<br>keyword: final<br>keyword: abstract<br>Interface<br>InnerClass<br>Enum<br>Annotation<Br>Wrapper Class<br> |
+| Section 7 | Exception handling | Try-catch-finally Blocks<Br>  Throwing Exceptions |
+| Section 8 | Thread | Multithreading(Thread vs Runnable)<br>Common methods<br>Daemon Threads<br>Thread lifecycle<br>Synchronization Mechanisms<Br>Thread Communication<br/>Producer-Consumer Problem<br/>Lock Release Operations |
+| Section 9 | Common class and API                                       | String, StringBuffer,StringBUilder, DateAPI, java.lang.Comaprable, Java.util.Comparator, System, Runtime, Math, Random    |
+| Section 10 |          Collection                              |  |
 
 ##  Project 1: 💰 Family Budgeting Software
 > This software is mainly to simulate the realization of a family budget software based on a text interface, familiar with the basic syntax of Java, and master the use of basic data types, loop statements, branch statements, method invocation and return value receiving, and simple screen output format control.
