@@ -9,7 +9,7 @@
     📚 <a href="#">Course Link</a> |
     🚀 <a href="#">Projects</a> |
     📝 <a href="#">Course Notes</a> |
-</div><br><br>
+</div><br> 
 
 
 
