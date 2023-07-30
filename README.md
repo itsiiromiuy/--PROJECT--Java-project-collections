@@ -58,38 +58,48 @@ The peoject is orgnaized into three modules: Domain, Service, and View.
 Domain: 
 > The Domain module defines the core entities and their properties in the team management system. It includes the following classes:
 
-- |--> **Employee**: Represents the basic information of a team member, including their ID, name, age, and salary.
-- |--> **Programmer**: Extends Employee and adds additional properties specific to programmers, such as a member ID, status, and equipment.
-- |--> **Designer**: Extends Programmer and adds an additional bonus field specific to designers.
-- |--> **Architect**: Extends Designer and includes a stock field specific to architects.
-- |-->**Equipment**: Represents the equipment used by team members and includes subclasses like PC, MAC, and Printer.
-- |--> **PC**: Extends Equipment and adds additional properties specific to PCs, such as model and display.
-
-- |--> **MAC**: Extends Equipment and adds additional properties specific to MACs, such as model and color.
-
-- |--> **Printer**: Extends Equipment and adds additional properties specific to printers, such as type and name.
+```bash
+Domain:
+  |--> **Employee**: Represents the basic information of a team member, including their ID, name, age, and salary.
+  |--> **Programmer**: Extends Employee and adds additional properties specific to programmers, such as a member ID, status, and equipment.
+  |--> **Designer**: Extends Programmer and adds an additional bonus field specific to designers.
+  |--> **Architect**: Extends Designer and includes a stock field specific to architects.
+  |-->**Equipment**: Represents the equipment used by team members and includes subclasses like PC, MAC, and Printer.
+  |--> **PC**: Extends Equipment and adds additional properties specific to PCs, such as model and display.
+  |--> **MAC**: Extends Equipment and adds additional properties specific to MACs, such as model and color.
+  |--> **Printer**: Extends Equipment and adds additional properties specific to printers, such as type and name.
+```
 
 Service:
 > The Service module provides the core business logic of the team management system. It includes the following classes:
 
+```
+Service:
   |--> **TeamData**: A management module for Employee objects. It internally manages an array of Employee objects and provides corresponding methods for adding, modifying, deleting, and traversing the objects, which are called by TeamView.
   |--> **TeamListService**: A user interface display module responsible for handling interface logic. It displays menus, receives user input, and calls the relevant methods of TeamData.
   |--> **TeamService**: The main class of the program, which is responsible for starting the program and creating the TeamView object.
   |--> **TeamStatus**: An enumeration class that defines the status of a team member.
   |--> **TeamException**: A custom exception class that defines exceptions that may occur in the team management system.
+```
 
 View:
 > The View module provides the user interface for the team management system. It includes the following classes:
 
+```
+View:
   |--> **TeamView**: A user interface display module responsible for handling interface logic. It displays menus, receives user input, and calls the relevant methods of TeamListService.
   |--> **TSUtility**: A utility class that provides methods for reading user input and displaying menus.
+```
 
 JUnit Test:
 > The JUnit Test module provides unit tests for the team management system. It includes the following classes:
 
+```
+Junit:
   |--> **TeamServiceTest**: A unit test class for the TeamService class.
   |--> **TeamViewTest**: A unit test class for the TeamView class.
   |--> **TeamDataTest**: A unit test class for the TeamData class.
   |--> **TeamListServiceTest**: A unit test class for the TeamListService class.
   |--> **TeamExceptionTest**: A unit test class for the TeamException class.
+```
 
