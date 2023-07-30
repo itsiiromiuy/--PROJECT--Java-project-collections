@@ -58,14 +58,16 @@ The peoject is orgnaized into three modules: Domain, Service, and View.
 Domain: 
 > The Domain module defines the core entities and their properties in the team management system. It includes the following classes:
 
-  |--> **Employee**: Represents the basic information of a team member, including their ID, name, age, and salary.
-  |--> **Programmer**: Extends Employee and adds additional properties specific to programmers, such as a member ID, status, and equipment.
-  |--> **Designer**: Extends Programmer and adds an additional bonus field specific to designers.
-  |--> **Architect**: Extends Designer and includes a stock field specific to architects.
-  |-->**Equipment**: Represents the equipment used by team members and includes subclasses like PC, MAC, and Printer.
-  |--> **PC**: Extends Equipment and adds additional properties specific to PCs, such as model and display.
-  |--> **MAC**: Extends Equipment and adds additional properties specific to MACs, such as model and color.
-  |--> **Printer**: Extends Equipment and adds additional properties specific to printers, such as type and name.
+- |--> **Employee**: Represents the basic information of a team member, including their ID, name, age, and salary.
+- |--> **Programmer**: Extends Employee and adds additional properties specific to programmers, such as a member ID, status, and equipment.
+- |--> **Designer**: Extends Programmer and adds an additional bonus field specific to designers.
+- |--> **Architect**: Extends Designer and includes a stock field specific to architects.
+- |-->**Equipment**: Represents the equipment used by team members and includes subclasses like PC, MAC, and Printer.
+- |--> **PC**: Extends Equipment and adds additional properties specific to PCs, such as model and display.
+
+- |--> **MAC**: Extends Equipment and adds additional properties specific to MACs, such as model and color.
+
+- |--> **Printer**: Extends Equipment and adds additional properties specific to printers, such as type and name.
 
 Service:
 > The Service module provides the core business logic of the team management system. It includes the following classes:
