@@ -86,24 +86,21 @@ BookView
 
 ##  **Project 3:  👩🏻‍💻 Development team personnel scheduling system**
 
-### Description:
+Description:
 
-The Team Management System is a Java-based application that provides functionalities to manage a development team. The system allows users to add, remove, and view team members, handle team member assignments, and manage their equipment. It is designed to be a flexible and extensible system for managing various types of team members, such as Programmers, Designers, and Architects, along with their respective equipment.
+The Development Team Personnel Scheduling System is a Java-based application that provides comprehensive functionalities for managing a development team. Users can efficiently handle team member assignments, equipment management, and view team member details. The system is designed to accommodate various types of team members, including Programmers, Designers, and Architects, along with their specific equipment requirements.
 
-🪴It mainly involves the following knowledge points:
+🪴 Key Concepts Covered:
 
-    1.  Class inheritance
-    2.  Polymorphism
-    3.  Abstract class
-    4.  Interface
-    5.  Exception handling
-    6.  File read and write
-    7.  MVC design pattern
+1. Class Inheritance: Understand and implement inheritance to create a hierarchical structure for team members.
+2. Polymorphism: Utilize polymorphism to enable flexible handling of different team member types.
+3. Abstract Class: Learn to design and use abstract classes for common attributes and behaviors among team members.
+4. Interface: Implement interfaces to define common actions across different team member roles.
+5. Exception Handling: Implement robust exception handling to enhance the application's reliability.
+6. File Read and Write: Develop file read and write operations for data storage and retrieval.
+7. MVC Design Pattern: Apply the Model-View-Controller design pattern to create a modular and maintainable system.
 
-### Modules:
-The peoject is orgnaized into three modules: Domain, Service, and View.
-
-#### Domain: 
+Domain: 
 
 > The Domain module defines the core entities and their properties in the team management system. It includes the following classes:
 
@@ -119,7 +116,7 @@ Domain:
   |--> **Printer**: Extends Equipment and adds additional properties specific to printers, such as type and name.
 ```
 
-#### Service:
+Service:
 
 > The Service module provides the core business logic of the team management system. It includes the following classes:
 
@@ -132,7 +129,7 @@ Service:
   |--> **TeamException**: A custom exception class that defines exceptions that may occur in the team management system.
 ```
 
-#### View:
+View:
 
 > The View module provides the user interface for the team management system. It includes the following classes:
 
@@ -142,7 +139,7 @@ View:
   |--> **TSUtility**: A utility class that provides methods for reading user input and displaying menus.
 ```
 
-#### JUnit Test:
+JUnit Test:
 
 > The JUnit Test module provides unit tests for the team management system. It includes the following classes:
 
