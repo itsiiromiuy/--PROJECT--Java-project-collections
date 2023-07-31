@@ -9,10 +9,10 @@ public class BookList {
 
     /**
      * @Description: Constructor. Initialize the array with the specified size
-     * @param totalBook
+     * @param totalBooks
      */
-     public BookList(int totalBook) {
-        books = new Book[totalBook]; // Initialize the array with the specified size
+     public BookList(int totalBooks) {
+        books = new Book[totalBooks]; // Initialize the array with the specified size
      }
 
     /**
@@ -20,7 +20,7 @@ public class BookList {
      * @param book
      * @return true if the book is successfully added, false if the array is full
      */
-    public boolean addBook(Book book) {
+    public boolean addBooks(Book book) {
        if (total >= books.length) {
             return false;
         }
@@ -34,7 +34,7 @@ public class BookList {
      * @param book
      * @return true if the book is successfully modified, false if the index is invalid
      */
-    public boolean replaceBook(int index, Book book) {
+    public boolean replaceBooks(int index, Book book) {
         if(index < 0 || index >= total) {
             return false;
         }
@@ -48,7 +48,7 @@ public class BookList {
      * @return true if the book is successfully deleted, false if the index is invalid
      */
 
-    public boolean deleteBook(int index) {
+    public boolean deleteBooks(int index) {
         if(index < 0 || index >= total) {
             return false;
         }
@@ -77,7 +77,7 @@ public class BookList {
      * @param index
      * @return the book at the specified index, null if the index is invalid
      */
-    public Book getBook(int index) {
+    public Book getBooks(int index) {
         if(index < 0 || index >= total) {
             return null;
         }
