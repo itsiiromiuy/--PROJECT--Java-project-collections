@@ -88,15 +88,69 @@ public class BookView {
      * @Description: Display the menu for modifying a book and receive user input
      * @return The user input
      */
-    private void modifyBooks() {
+    private void modifyBooks () {
+        System.out.println(" ---------------------modifyBooks---------------------");
+        Book modifyBookIndex;
+        int userInput;
+        for (; ; ) {
+            System.out.print("Please select the number of the book to be modified (-1 to Exit : ");
+            userInput = BMUtility.readInt();
+            //If it is -1, do not delete, return in advance
+            if (userInput == -1) {
+                return;
+            }
+            ///If the target object is empty, print the output number error, if it is not empty, jump out of the for loop
+            modifyBookIndex = bookList.getBook(userInput - 1);
+            //If the target object is empty, print the output number error, if it is not empty, jump out of the for loop
+            if (modifyBookIndex == null) {
+                System.out.println("Unable to find the specified customer");
+            } else {
+                break;
+            }
+
+        }
+        //Unconditionally modify the book property of the target object
+        System.out.println("Title(" + modifyBookIndex.getTitle() + ")");
+        String title = BMUtility.readString(10, modifyBookIndex.getTitle());
+        System.out.println("Subject(" + modifyBookIndex.getSubject() + ")");
+        String subject = BMUtility.readString(10, modifyBookIndex.getSubject());
+        System.out.println("Author(" + modifyBookIndex.getAuthor() + ")");
+        String author = BMUtility.readString(10, modifyBookIndex.getAuthor());
+        System.out.println("Mail(" + modifyBookIndex.getPress() + ")");
+        String press = BMUtility.readString(10, modifyBookIndex.getPress());
+        System.out.println("Phone(" + modifyBookIndex.getEdition() + ")");
+        String edition = BMUtility.readString(10, modifyBookIndex.getEdition());
+        Book newBook = new Book(title, subject, author, press, edition);
+
+        bookList.replaceBook(userInput - 1, newBook);
 
     }
     /**
      * @Description: Display the menu for deleting a book and receive user input
      * @return The user input
      */
-    private void deleteBooks() {
+    private void deleteBooks () {
         System.out.println(" ---------------------deleteBooks---------------------");
+        listAllBooks();
+        int userInput;
+        System.out.print("Please select the number of the book to be modified (-1 to Exit : ");
+        //Get the number entered by the user from the keyboard
+        userInput = BMUtility.readInt();
+        if (userInput == -1) {
+            return;
+        }
+        System.out.println("Confirm whether to delete(Y/N) : ");
+        char confirmDelete = BMUtility.readConfirmSelection();
+        if (confirmDelete == 'Y') {
+            //Call the manager's method to complete the deletion
+            boolean flag = bookList.deleteBooks(userInput - 1);
+            if (flag) {
+                System.out.println("---------------------delete complete---------------------");
+            } else {
+                System.out.println("--------------------Delete failed, reason: wrong ID---------------------");
+            }
+        }
+        listAllBooks();
     }
     /**
      * @Description: Display the menu for listing all books and receive user input
@@ -113,18 +167,10 @@ public class BookView {
             Book[] books = bookList.getAllBooks();
             for (int i = 0; i < total; i++) {
                 Book book = books[i];
-                System.out.println((i+1)+ '\t' + book.getTitle() + '\t' + book.getSubject() + '\t'+ book.getAuthor() + '\t' + book.getPress() + '\t' + book.getEdition());
-
+                System.out.println((i + 1) + '\t' + book.getTitle() + '\t' + book.getSubject() + '\t' + book.getAuthor() + '\t' + book.getPress() + '\t' + book.getEdition());
             }
         }
-
     }
-    /**
-     * @Description: Display the menu for exiting the system and receive user input
-     * @return The user input
-     */
-    private void exitSystem() {
-
-    }
+}
 
 

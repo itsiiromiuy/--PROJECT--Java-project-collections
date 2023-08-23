@@ -1,24 +1,23 @@
 package Service;
 
-
 import Domain.Architect;
 import Domain.Designer;
 import Domain.Employee;
 import Domain.Programmer;
 
 /**
- * @Description Management of development team members: add, delete, etc.
+ * @Description Manages development team members: add, delete, etc.
  */
 
 public class TeamService {
-    // counter为静态变量，用来为开发团队新增成员自动生成团队中的唯一ID，即memberId。
-    //（提示：应使用增1的方式） programmer.setMemberId(counter++);
+    // counter is a static variable used to automatically generate unique IDs for team members when adding them to the team
+    // (Hint: should use an increment approach) programmer.setMemberId(counter++);
     private static int counter = 1;
-    //MAX_MEMBER：表示开发团队最大成员数
+    // MAX_MEMBER: represents the maximum number of members in the development team
     private final int MAX_MEMBER = 5;
-    //team数组：用来保存当前团队中的各成员对象
+    // team array: used to store current team members' objects
     private Programmer[] team = new Programmer[MAX_MEMBER];
-    //realCount：记录团队成员的实际人数
+    // realCount: records the actual number of team members
     private int realCount;
 
     public TeamService() {
@@ -26,43 +25,39 @@ public class TeamService {
     }
 
     /**
-     * @return 包含所有成员对象的数组，数组大小与成员人数一致
-     * @description 获取开发团队中的所有成员
+     * @return An array containing all member objects, with the array size matching the number of members
+     * @description Get all members in the development team
      */
     public Programmer[] getTeamList() {
-        // 1) 创建新数组, 容量是计数器
+        // 1) Create a new array with the size of the counter
         Programmer[] newTeamArr = new Programmer[realCount];
-        // 2) 依次把内部数组中所有有效对象保存在新数组中
+        // 2) Save all valid objects from the internal array into the new array one by one
         for (int i = 0; i < newTeamArr.length; i++) {
             newTeamArr[i] = this.team[i];
         }
-        // 3) 返回新数组
+        // 3) Return the new array
         return newTeamArr;
     }
 
     /**
-     * @Description 将制定的员工添加到团队中
-     * @Param 待添加成员的对象
-     * @Exception 添加失败，TeamException中包含了失败原因
+     * @Description Add the specified employee to the team
+     * @Param The object of the member to be added
+     * @Exception If adding fails, TeamException will contain the reason for the failure
      */
     public void addMember(Employee employee) throws TeamException {
-        //"团队已满, 无法添加"
+        //"Team is full, can't add"
         if (realCount >= MAX_MEMBER) {
             throw new TeamException("Team is full, can't add");
         }
-        //"该成员不是开发人员，无法添加"
+        //"The member cannot be added because it is not part of the development team."
         if (!(employee instanceof Programmer)) {
             throw new TeamException("The member cannot be added because it is not part of the development team.");
         }
-        //"该员已是团队成员"
-       /* Programmer programmer = (Programmer) employee;
-        if (programmer.getMemberId() != 0) {
-            throw new TeamException("该员已是团队成员");
-        }*/
+        //"The person is already a team member"
         if (isExist(employee)) {
             throw new TeamException("The person is already a team member");
         }
-        //"该员正在Vacation or Busy,无法添加"
+        //"The person is already a team member"
         Programmer programmer = (Programmer) employee;
         if (programmer.getStatus().equals(TeamStatus.Status.BUSY)) {
             throw new TeamException("The person is already a team member");
@@ -70,12 +65,11 @@ public class TeamService {
             throw new TeamException("The person is on vacation");
         }
 
-
         int architect = 0;
         int designer = 0;
         int programmers = 0;
-        //团队中至多只能有一名架构师，两名设计师，三名程序员
-        //获取Team已有成员中架构师，程序员，设计师的人数。
+        // At most one architect, two designers, and three programmers in the team
+        // Get the number of architects, programmers, and designers in the current team members
         for (int i = 0; i < realCount; i++) {
             if (team[i] instanceof Architect) {
                 architect++;
@@ -98,13 +92,12 @@ public class TeamService {
                 throw new TeamException("There can be at most Three Programmers on the team");
             }
         }
-        // 给新成员赋予TID, 并改状态
+        // Assign a new TID to the new member and change the status
         programmer.setMemberId(counter++);
         programmer.setStatus(TeamStatus.Status.BUSY);
-        // 把参数中的对象保存在数组中, 下标由计数器控制, 调整计数器
-        this.team[realCount++] = programmer; // 传递的是地址值
+        // Save the object from the parameter into the array, adjust the counter
+        this.team[realCount++] = programmer; // Passed by reference
     }
-
 
     private boolean isExist(Employee employee) {
         for (int i = 0; i < realCount; i++) {
@@ -115,37 +108,35 @@ public class TeamService {
         return false;
     }
 
-
     /**
-     * 	方法：从团队中删除成员
-     参数：待删除成员的memberId
-     异常：删除失败， TeamException中包含了失败原因
+     * Method: Remove a member from the team
+     * Parameter: memberId of the member to be removed
+     * Exception: If removal fails, TeamException will contain the reason for the failure
      */
     public void removeMember(int memberId) throws TeamException {
-        // 根据memberId找到下标
-        int index = -1; // 先赋值一个无效下标
+        // Find the index based on memberId
+        int index = -1; // Set an invalid index first
         for (int i = 0; i < realCount; i++) {
             if (team[i].getMemberId() == memberId) {
                 index = i;
                 break;
             }
         }
-        if (index == -1) { // 如果index没有被刷新过, 说明没有找到目标
-            throw new TeamException("没有指定TID[" + memberId + "]的成员");
+        if (index == -1) { // If index hasn't been updated, it means the target hasn't been found
+            throw new TeamException("There is no member with the specified TID[" + memberId + "]");
         }
 
-        // 删除前, 把要删除的目标对象的TID, 状态 修改
+        // Before removing, modify the TID and status of the target object to be removed
         team[index].setMemberId(0);
         team[index].setStatus(TeamStatus.Status.FREE);
 
-        // 1) 把要删除的下标位置处置为空洞
+        // 1) Make the slot of the to-be-deleted index empty
         team[index] = null;
-        // 2) 从要删除的下标位置开始, 依次把右侧相邻的元素复制到左边
+        // 2) Starting from the index to be deleted, copy the right adjacent element to the left one by one
         for (int i = index; i < realCount - 1; i++) {
             team[i] = team[i + 1];
         }
-        // 3) 把之前的最有有效元素位置处置为空洞   4) 调整计数器
-        team[--realCount] = null; // 先减后用
+        // 3) Make the previous last valid element slot empty, 4) Adjust the counter
+        team[--realCount] = null; // Decrease first, then use
     }
-
 }
